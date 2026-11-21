@@ -1,0 +1,81 @@
+export const portfolio = {
+  name: 'Gurubalan V', initials: 'GV', role: 'SEO Executive · Full Stack Java Background',
+  headline: 'Content strategy.\nSearch visibility.',
+  headlines: [
+    'Content strategy.\nSearch visibility.',
+    'Search visibility.\nOrganic growth.',
+    'SEO expertise.\nFull stack skills.',
+    'Technical SEO.\nOrganic growth.',
+    'React interfaces.\nJava backends.',
+    'Content strategy.\nSearch visibility.',
+    'Clean code.\nResponsive web.',
+    'Search analytics.\nInformed strategy.',
+  ],
+  introduction: 'I’m Gurubalan, an SEO Executive at Fenizo Technologies with a background in Full Stack Java development. I combine technical SEO, content strategy, and analytics with React, Spring Boot, and database skills to improve website visibility and build user-friendly web experiences.',
+  about: 'B.Tech Information Technology graduate with professional experience in SEO, including a three-month internship at Fenizo Technologies and current hands-on experience as an SEO Executive. I also completed six months of Full Stack Java development training at Code99 IT Academy. I aim to use my technical expertise, SEO knowledge, and analytical skills to drive organic growth, improve website visibility, and contribute to organizational success.',
+  email: 'gurubalanvbtech@gmail.com', phone: '+91 82709 31289', phoneHref: '+918270931289',
+  address: '31, Sonai Kovi Street, Madakkulam, Madurai – 625003', location: 'Madurai, Tamil Nadu',
+  github: 'https://github.com/Teejayguru',
+  linkedin: 'https://www.linkedin.com/in/gurubalan-v-a95a10255/',
+  hackerrank: 'https://www.hackerrank.com/profile/Teejayguru07',
+  skillGroups: [
+    { title: 'SEO', items: ['On-Page SEO', 'Off-Page SEO', 'Technical SEO', 'Keyword Research', 'Competitor Analysis', 'SEO Audit', 'Content Optimization', 'Blog Writing'] },
+    { title: 'Google tools', items: ['Google Analytics (GA4)', 'Google Search Console', 'Google Ads', 'Google Business Profile', 'Microsoft Clarity'] },
+    { title: 'CMS & web', items: ['WordPress', 'HTML5', 'CSS3', 'React.js'] },
+    { title: 'Digital marketing', items: ['Google Ads Campaigns', 'Website Performance Tracking', 'Content Strategy'] },
+    { title: 'Backend & programming', items: ['Java', 'Spring Boot', 'Python', 'JavaScript', 'SQL'] },
+    { title: 'Tools', items: ['Git', 'GitHub', 'MS Excel'] },
+    { title: 'Soft skills', items: ['Problem Solving', 'Team Collaboration', 'Communication', 'Analytical Thinking'] },
+  ],
+  interests: ['Photoshop', 'Software Development', 'Web Design'],
+  languages: ['Tamil — Native', 'English — Upper intermediate'],
+  experience: [
+    {
+      role: 'SEO Executive', company: 'Fenizo Technologies', location: 'Madurai', dates: 'May 2026 – Present',
+      highlights: [
+        'Handle keyword research, on-page optimization, technical SEO, content optimization, and competitor analysis.',
+        'Monitor website performance with Google Analytics, Google Search Console, and Microsoft Clarity.',
+        'Manage SEO content and blog writing to improve organic visibility and search performance.',
+        'Assist with Google Ads and Google Business Profile activities to support digital marketing performance.',
+      ],
+    },
+    {
+      role: 'SEO Intern', company: 'Fenizo Technologies', location: 'Madurai', dates: 'March 2026 – May 2026',
+      highlights: [
+        'Conducted keyword research, competitor analysis, and on-page SEO optimization.',
+        'Assisted with content optimization, blog writing, website audits, and SEO performance tracking.',
+        'Worked with Google Analytics, Google Search Console, Google Business Profile, and Microsoft Clarity.',
+      ],
+    },
+    {
+      role: 'Full Stack Java Developer Intern', company: 'Code99 IT Academy', location: 'Chennai', dates: 'September 2024 – March 2025',
+      highlights: [
+        'Developed applications using Java, Spring Boot, React.js, HTML, CSS, JavaScript, and MySQL.',
+        'Worked on REST APIs, CRUD operations, database integration, and responsive web interfaces.',
+        'Used Git and GitHub for version control and project collaboration.',
+      ],
+    },
+  ],
+  education: [
+    { qualification: 'B.Tech — Information Technology', institution: 'Coimbatore Institute of Engineering and Technology', dates: '2020 – 2024' },
+    { qualification: 'HSC — Biology Mathematics', institution: 'Mangayarkarasi Higher Secondary School', dates: '2019 – 2020' },
+    { qualification: 'SSLC', institution: 'Mangayarkarasi Higher Secondary School', dates: '2017 – 2018' },
+  ],
+  certifications: [
+    { course: 'Full Stack Java', provider: 'Code99 IT Academy' },
+    { course: 'Java Programming', provider: 'Great Learning' },
+    { course: 'Python Internship', provider: 'Pantech Solutions' },
+  ],
+  achievements: [
+    'Solved 300+ coding problems on HackerRank.',
+    'Ranked in the top 10% in Java Skill Certification on HackerRank.',
+    'Built 3+ full-stack applications using Java, Spring Boot, React, and MySQL.',
+    'Gained hands-on experience in SEO, Google Analytics, Google Search Console, Google Ads, and WordPress.',
+  ],
+  projects: [
+    { title: 'Restaurant Food Order Web Application', category: 'Frontend · User experience', description: 'Built a responsive, framework-free food ordering application with menu browsing, a shopping cart, and order placement. Added real-time cart updates, form validation, and interactive menus for a smooth experience across devices.', stack: ['HTML', 'CSS', 'JavaScript'], url: '', number: '01', color: 'peach' },
+    { title: 'Personal Portfolio Website', category: 'Design · Development', description: 'Designed a responsive, mobile-first portfolio to showcase my skills, projects, and achievements. Created interactive profile, project, and contact sections with a focus on accessibility and user experience.', stack: ['React.js', 'CSS', 'JavaScript'], url: '', number: '02', color: 'lavender' },
+    { title: 'CRUD Bank Application', category: 'Core Java · Application development', description: 'Developed a menu-driven banking system with account management, deposits, withdrawals, and balance inquiries. Applied OOP, exception handling, and file-based persistence with modular, reusable methods. Validated functionality with 100+ test cases.', stack: ['Core Java', 'OOP', 'File Handling'], url: '', number: '03', color: 'mint' },
+    { title: 'Brain Disease Diagnosis Using Machine Learning', category: 'Machine learning · Academic project', description: 'Worked on brain tumor segmentation in MR images, addressing subtle tissue variations and noise. Combined multimodal image segmentation, Gabor feature extraction, spatially guided generative models, and Bat Algorithm optimization to improve segmentation accuracy.', stack: ['Machine Learning', 'Gabor Filters', 'Bat Algorithm'], url: '', number: '04', color: 'sand' },
+  ],
+}
